@@ -1,6 +1,7 @@
 module.exports = {
   content: [
-    "./pages/*.js"
+    "./pages/*.js",
+    "./previews/*.js"
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {

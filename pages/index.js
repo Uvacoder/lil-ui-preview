@@ -17,11 +17,11 @@ export default function Home() {
           <h1 className="font-black text-5xl">lil ui</h1>
           <h2>A very basic set of useful React components</h2>
           <div className="flex md:flex-row flex-col space-y-3 md:space-y-0 items-center justify-center mt-3 mb-5 text-xs font-semibold md:space-x-4 font-mono">
-            <div className="bg-pink-200 text-pink-500 px-3 py-px rounded-full">
+            <div className="bg-pink-200 text-pink-500 px-3 py-[3px] rounded-full">
               Currently in alpha
             </div>
             <a
-              className="bg-gray-200 text-gray-600 px-3 py-px rounded-full hover:underline"
+              className="bg-gray-200 text-gray-600 px-3 py-[3px] rounded-full hover:underline"
               target="_blank"
               href="https://github.com/rishimohan/lil-ui"
             >
@@ -29,7 +29,7 @@ export default function Home() {
             </a>
             <a
               target="_blank"
-              className="bg-blue-100 text-blue-500 px-3 py-px rounded-full hover:underline"
+              className="bg-blue-100 text-blue-500 px-3 py-[3px] rounded-full hover:underline"
               href="https://twitter.com/thelifeofrishi"
             >
               @thelifeofrishi

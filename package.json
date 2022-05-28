@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",
-    "lil-ui": "^0.17.0-a",
+    "lil-ui": "^0.19.0-a",
     "next": "^12.0.7",
     "postcss": "^8.4.5",
     "react": "17.0.2",

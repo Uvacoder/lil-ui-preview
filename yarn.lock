@@ -1752,10 +1752,10 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-lil-ui@^0.17.0-a:
-  version "0.17.0-a"
-  resolved "https://registry.yarnpkg.com/lil-ui/-/lil-ui-0.17.0-a.tgz#18cb152f78daed2e98054033832ed4d31c47e6c3"
-  integrity sha512-XiEGVXy+hkSM940xPHJRBggyTVdsq3VYp9H9ht+jnW6rkefwaUCownqGfLHIetBTpqd0Ju9VZ9IuTxObrvb0wQ==
+lil-ui@^0.19.0-a:
+  version "0.19.0-a"
+  resolved "https://registry.yarnpkg.com/lil-ui/-/lil-ui-0.19.0-a.tgz#235fbf3f79de74ce8d90a6d2aa7883154b50283d"
+  integrity sha512-8E86A31d8elhJBAUdTSCxlcPi5rNqxl7kNZe9mnp+dhitzNdbf5DBIDooH8TFVkxE5aupOQ6qykxz08BXXlv9g==
   dependencies:
     "@babel/polyfill" "^7.12.1"
     "@testing-library/jest-dom" "^5.11.4"

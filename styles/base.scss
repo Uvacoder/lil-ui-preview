@@ -1,0 +1,7 @@
+a {
+  @apply cursor-default;
+
+  &:hover {
+    @apply underline;
+  }
+}

@@ -4,7 +4,7 @@ import { Modal, Button } from "lil-ui";
 export default function ModalPreview() {
   const [showModal, setModalShow] = useState(false);
   return (
-    <section className="max-w-[800px] bg-white rounded-2xl mx-auto border border-gray-100 shadow-lg shadow-gray-300/10 p-10">
+    <section className="max-w-[800px] bg-white rounded-2xl mx-auto border border-gray-200 shadow-lg shadow-gray-300/10 p-10">
       <h2 className="text-4xl font-black mb-4">Modal</h2>
       <Button className="mb-10" onClick={() => setModalShow(true)}>
         Show Modal
@@ -15,7 +15,7 @@ export default function ModalPreview() {
         title="Modal"
       ></Modal>
 
-      <div className="border border-gray-200 rounded-xl overflow-hidden">
+      <div className="table-wrapper">
         <table>
           <thead>
             <tr>

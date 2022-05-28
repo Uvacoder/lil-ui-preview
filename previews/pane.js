@@ -4,7 +4,7 @@ import { Pane, Button } from "lil-ui";
 export default function PanePreview() {
   const [showPane, setPaneShow] = useState(false);
   return (
-    <section className="max-w-[800px] bg-white rounded-2xl mx-auto border border-gray-100 shadow-lg shadow-gray-300/10 p-10">
+    <section className="max-w-[800px] bg-white rounded-2xl mx-auto border border-gray-200 shadow-lg shadow-gray-300/10 p-10">
       <h2 className="text-4xl font-black mb-4">Pane</h2>
       <Button className="mb-10" onClick={() => setPaneShow(true)}>
         Show Pane
@@ -15,7 +15,7 @@ export default function PanePreview() {
         title="Modal"
       ></Pane>
 
-      <div className="border border-gray-200 rounded-xl overflow-hidden">
+      <div className="table-wrapper">
         <table>
           <thead>
             <tr>
@@ -86,6 +86,16 @@ export default function PanePreview() {
               <td></td>
               <td>
                 <div>Function to run when modal closes</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>position</code>
+              </td>
+              <td><code>right</code></td>
+              <td>
+                <div><code>left</code> to open the pane from left</div>
+                <div><code>right</code> or leave empty to open the pane from right</div>
               </td>
             </tr>
           </tbody>

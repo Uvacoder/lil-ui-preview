@@ -2,4 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "./table.scss"
+@import "./base.scss";
+@import "./table.scss";

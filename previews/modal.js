@@ -12,7 +12,7 @@ export default function ModalPreview() {
       <Modal
         onClose={() => setModalShow(false)}
         show={showModal}
-        title="Modal"
+        title="Modal Title"
       ></Modal>
 
       <div className="table-wrapper">

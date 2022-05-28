@@ -12,7 +12,7 @@ export default function PanePreview() {
       <Pane
         onClose={() => setPaneShow(false)}
         show={showPane}
-        title="Modal"
+        title="Pane Title"
       ></Pane>
 
       <div className="table-wrapper">

@@ -20,6 +20,7 @@ export default function ModalPreview() {
           <thead>
             <tr>
               <th>Prop</th>
+              <th>Type</th>
               <th>Default value</th>
               <th>Options</th>
             </tr>
@@ -28,6 +29,9 @@ export default function ModalPreview() {
             <tr>
               <td>
                 <code>show</code>
+              </td>
+              <td>
+                <code>boolean</code>
               </td>
               <td>
                 <code>false</code>
@@ -47,7 +51,10 @@ export default function ModalPreview() {
               <td>
                 <code>children</code>
               </td>
-              <td></td>
+              <td>
+                <code>string</code>/<code>component</code>
+              </td>
+              <td>-</td>
               <td>
                 <div>Modal content can be passed as children</div>
               </td>
@@ -56,7 +63,10 @@ export default function ModalPreview() {
               <td>
                 <code>titleComponent</code>
               </td>
-              <td></td>
+              <td>
+                <code>component</code>
+              </td>
+              <td>-</td>
               <td>
                 <div>Custom component for modal heading</div>
               </td>
@@ -65,7 +75,10 @@ export default function ModalPreview() {
               <td>
                 <code>backdropComponent</code>
               </td>
-              <td></td>
+              <td>
+                <code>component</code>
+              </td>
+              <td>-</td>
               <td>
                 <div>Custom component for modal backdrop</div>
               </td>
@@ -74,7 +87,10 @@ export default function ModalPreview() {
               <td>
                 <code>title</code>
               </td>
-              <td></td>
+              <td>
+                <code>string</code>
+              </td>
+              <td>-</td>
               <td>
                 <div>Modal title</div>
               </td>
@@ -83,10 +99,33 @@ export default function ModalPreview() {
               <td>
                 <code>onClose</code>
               </td>
-              <td></td>
+              <td>
+                <code>function</code>
+              </td>
+              <td>-</td>
               <td>
                 <div>Function to run when modal closes</div>
               </td>
+            </tr>
+            <tr>
+              <td>
+                <code>hideBackdrop</code>
+              </td>
+              <td>
+                <code>boolean</code>
+              </td>
+              <td>-</td>
+              <td>Set to true to have transparent backdrop</td>
+            </tr>
+            <tr>
+              <td>
+                <code>modalWidth</code>
+              </td>
+              <td>
+                <code>string</code>
+              </td>
+              <td>500px</td>
+              <td>Set custom width for modal, e.g 600px</td>
             </tr>
           </tbody>
         </table>

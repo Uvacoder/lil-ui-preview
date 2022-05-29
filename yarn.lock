@@ -1752,10 +1752,10 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-lil-ui@^0.20.0-a:
-  version "0.20.0-a"
-  resolved "https://registry.yarnpkg.com/lil-ui/-/lil-ui-0.20.0-a.tgz#a620b806e71c6a319e65261a57b6fb50c85371f8"
-  integrity sha512-KKTXswU2jAD8BsSj7SZF/9imY39bytVN9MGaXwuJL2FRMIhZjT7EXVtQ0LEQYcTANT5fmEaboHvTGb3vaXGKvw==
+lil-ui@^0.22.0-a:
+  version "0.22.0-a"
+  resolved "https://registry.yarnpkg.com/lil-ui/-/lil-ui-0.22.0-a.tgz#69f0dff9d99c1cdfc83b78e066a3866091fe63a8"
+  integrity sha512-cT79rghuljUBW5l2D5wkjwWwoan6TRyOn58U1iS7CTd6C+AA5Q/QpuNnl1tfWWlVBbdNVkZoHpPncewpoHTXwA==
   dependencies:
     "@babel/polyfill" "^7.12.1"
     "@testing-library/jest-dom" "^5.11.4"
@@ -1896,6 +1896,11 @@ nanoid@^3.1.23, nanoid@^3.1.30:
   version "3.1.30"
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.30.tgz"
   integrity sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mBD1uUT/agc5f7GHGWXlYkFvi1mVxe4IjvP2HNrop7nQ==
+
+next-seo@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-5.4.0.tgz#37a7784b30b3f70cec3fa0d77f9dde5990822d24"
+  integrity sha512-R9DhajPwJnR/lsF2hZ8cN8uqr5CVITsRrCG1AF5+ufcaybKYOvnH8sH9MaH4/hpkps3PQ9H71S7J7SPYixAYzQ==
 
 next@^12.0.7:
   version "12.0.7"

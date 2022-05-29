@@ -9,8 +9,9 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",
-    "lil-ui": "^0.20.0-a",
+    "lil-ui": "^0.22.0-a",
     "next": "^12.0.7",
+    "next-seo": "^5.4.0",
     "postcss": "^8.4.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
